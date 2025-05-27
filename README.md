@@ -1,2 +1,3 @@
-# NamsteReact
-# NamsteReact
+# FoodLens
+
+# Description of food details
