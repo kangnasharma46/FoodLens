@@ -1,2 +1,0 @@
-# FoodLens
-Food Details 
