@@ -7,9 +7,20 @@
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangnasharma46/FoodLens"
+  },
   "author": "Kangna Sharma",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kangnasharma46/FoodLens/issues"
+  },
   "devDependencies": {
     "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
