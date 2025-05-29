@@ -30,19 +30,34 @@
 /*Food Container CSS*/
 
 .food-card {
-  background-color: lightgoldenrodyellow;
-  height: 280px;
-  width: 200px;
+  /* background-color: lightgoldenrodyellow; */
+  height: 380;
+  width: 250px;
   margin: 5px;
-  padding: 4px;
+  padding: 5px;
+  cursor: pointer;
+  transition: transform 0.2s; /* Animation */
+  border: 1px solid rgb(255, 227, 124);
+  border-radius: 5px;
+}
+.food-card:hover {
+  background-color: beige;
+  transform: scale(1.1);
 }
 
 .food-card-image {
-  height: 100px;
+  height: 150px;
   width: 100%;
+  border-radius: 10px;
 }
 
 .food-container-card {
   display: flex;
   flex-wrap: wrap;
+}
+
+.food-card-name > p {
+  font-size: larger;
+  color: #3498db;
+  font-weight: bold;
 }
